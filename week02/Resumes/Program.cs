@@ -4,7 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create job instances
         Job job1 = new Job();
         job1._jobTitle = "Software Engineer";
         job1._company = "Microsoft";
@@ -17,15 +16,12 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
-        // Create a resume instance
         Resume myResume = new Resume();
         myResume._name = "Allison Rose";
 
-        // Add jobs to the resume
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
 
-        // Display the resume
         myResume.Display();
     }
 }

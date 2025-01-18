@@ -8,10 +8,4 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Job.cs" />
-    <Compile Include="Resume.cs" />
-  </ItemGroup>
-
 </Project>
