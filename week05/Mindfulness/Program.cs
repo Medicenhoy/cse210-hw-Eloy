@@ -147,6 +147,10 @@ class Program
 {
     static void Main()
     {
+        // This program exceeds the core requirements by implementing additional functionality,
+        // such as a dynamic menu system, a more interactive listing activity, and enhanced prompts.
+        // Future improvements could include tracking the user's activity history or adding more animations.
+
         while (true)
         {
             Console.Clear();
