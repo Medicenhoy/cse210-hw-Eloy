@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
+// Eloy francisco Martinez Cabello
+
 // Base class for all activities
 public abstract class MindfulnessActivity
 {
